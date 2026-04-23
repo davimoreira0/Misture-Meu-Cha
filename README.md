@@ -1,69 +1,177 @@
-# Misture Meu Chá!
-Este jogo foi realizado como Projeto Final da disciplina Programação Orientada a Objetos I - Universidade Federal de Santa Catarina. Meu primeiro jogo feito em programação.
-
-
 <div align="center">
-    <div style="display: flex; align-items: center;">
-        <img src="https://github.com/pehqge/misture-meu-cha/assets/117869493/02d6963f-91d3-4afa-9369-294f08c965dc" alt="Logo misture meu cha" width="50%" style="align-self: center;">
-        <img src="https://github.com/pehqge/misture-meu-cha/assets/117869493/bc19b2b3-4a80-4286-b617-5bd4b0d58bf7" alt="GIF do gameplay" width="20%">
-    </div>
+
+<img src="assets/logo.png" alt="Misture Meu Chá! Logo" width="500">
+
+# 🍵 Misture Meu Chá!
+
+**Um jogo de ritmo e reflexos feito com amor e Python!**
+
+[![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)](https://python.org)
+[![Pygame](https://img.shields.io/badge/Pygame-2.x-10A020?logo=pygame&logoColor=white)](https://pygame.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![UFSC](https://img.shields.io/badge/UFSC-POO%20I-1E90FF)](https://ufsc.br)
+
+<img src="assets/cara_main.png" alt="Mascote" width="60">
+
+*Projeto Final - Programação Orientada a Objetos I*  
+*Universidade Federal de Santa Catarina*
+
 </div>
 
+---
 
+## ✨ Sobre o Jogo
 
-## Sobre o jogo
-O jogo misture meu chá! foi inspirado em dois jogos clássicos da infância do desenvolvedor: "Guitar Hero" e "Club Penguin". O objetivo do jogo é seguir o ritmo das setas que descem pela tela e pressioná-las no momento correto para misturar o chá da xícara e se manter vivo!
+**Misture Meu Chá!** é uma experiência nostálgica que mistura o viciante gameplay de **Guitar Hero** com a fofura de **Club Penguin**! 
 
-## Como jogar
-- As setas brancas no meio da tela indicam o gabarito correspondente à posição onde a seta deve ser pressionada para pontuar. Após 1 segundo de jogo, as setas começam a aparecer.
-- A cada erro, uma vida é perdida. São 3 vidas (representadas pelo coração), ao perder 3 vidas o jogo acaba.
-- O jogador deverá esperar que a seta correspondente desça até a seta gabarito. Quando as duas estiverem sobrepostas, o jogador deverá apertar no teclado a tecla correspondente:
-  
+Acompanhe o ritmo das setas que descem em cascata pela tela e pressione-as no momento perfeito para preparar o chá perfeito. Mas cuidado! Erre 3 vezes e sua xícara esfria...
+
 <div align="center">
-    <img src="https://github.com/pehqge/misture-meu-cha/assets/117869493/8a28af6c-0534-4318-aa48-a260b18e39f4" alt="Descrição das teclas" width="70%">
+
+| 🎵 Ritmo | ☕ Chá | 🎮 Diversão |
+|:--------:|:-----:|:-----------:|
+| Siga as setas | Misture bem | Bata recordes! |
+
 </div>
 
+---
 
+## 🎮 Como Jogar
 
-## Como instalar
+<div align="center">
+<img src="https://github.com/pehqge/misture-meu-cha/assets/117869493/bc19b2b3-4a80-4286-b617-5bd4b0d58bf7" alt="GIF do gameplay" width="300">
+</div>
 
-Para executar o jogo, é necessário que o usuário tenha Python instalado na máquina.
-Com o python instalado, vá ao terminal do computador aberto na pasta do jogo e escreva:
-  
-### Mac
+### 🎯 Objetivo
+- As setas brancas no centro da tela são seu **gabarito**
+- Aguarde as setas coloridas descerem até a posição correta
+- Pressione a tecla no momento exato em que se sobrepõem!
 
-```sh
+### 🕹️ Controles
+
+<div align="center">
+
+<img src="assets/seta_u.png" width="50"> ⬆️ **Cima**  
+<img src="assets/seta_d.png" width="50"> ⬇️ **Baixo**  
+<img src="assets/seta_l.png" width="50"> ⬅️ **Esquerda**  
+<img src="assets/seta_r.png" width="50"> ➡️ **Direita**
+
+</div>
+
+### ❤️ Sistema de Vidas
+<div align="center">
+<img src="assets/coracao.png" width="30"> <img src="assets/coracao.png" width="30"> <img src="assets/coracao.png" width="30">
+
+*3 vidas. Use-as com sabedoria!*
+</div>
+
+---
+
+## 🚀 Instalação
+
+### Pré-requisitos
+- Python 3.x instalado na máquina
+- pip (gerenciador de pacotes Python)
+
+### ⚡ Quick Start
+
+**Mac/Linux:**
+```bash
 pip3 install -r requirements.txt
-```
-```sh
 python3 main.py
 ```
-### Windows
-```sh
+
+**Windows:**
+```bash
 pip install -r requirements.txt
-```
-```sh
 python main.py
 ```
 
-## Relatório
+---
 
-Para mais detalhes sobre o projeto e o processo de criação, veja o PDF do relatório disponibilizado no arquivo.
-
-## Screenshots
+## 🖼️ Galeria
 
 <div align="center">
-    <div style="display: flex; align-items: center;">
-        <img src="https://github.com/pehqge/Misture-Meu-Cha/assets/117869493/94908f3b-120b-4adf-93a4-4344f59c2c7c" alt="Tela créditos" width="20%">
-        <img src="https://github.com/pehqge/Misture-Meu-Cha/assets/117869493/0f4648d3-1dd9-4847-aadf-61c25494825e" alt="Tela Menu"  width="20%">
-        <img src="https://github.com/pehqge/Misture-Meu-Cha/assets/117869493/8ccdde92-9f27-4367-b8e0-bfaea8c9759c" alt="Tela Gameplay" width="20%">
-        <img src="https://github.com/pehqge/Misture-Meu-Cha/assets/117869493/3a2c3f12-f632-4201-b2bc-233c69f5e3a1" alt="Tela GameOver" width="20%">
-    </div>
+
+### 🏠 Menu Principal
+<img src="assets/menu.png" width="400">
+
+### ☕ Gameplay
+<img src="assets/jogo.png" width="400">
+
+### 💀 Game Over
+<img src="assets/game_over.png" width="400">
+
+### 📜 Créditos
+<img src="assets/cara_creditos.png" width="100">
+
 </div>
 
-## Licença
+---
 
-[MIT](https://choosealicense.com/licenses/mit/)
+## 🎵 Trilha Sonora
+
+O jogo conta com músicas envolventes que criam a atmosfera perfeita para misturar seu chá:
+
+- 🎶 **Menu Theme** - `menu.wav`
+- 🎶 **Gameplay BGM** - `gameplay.wav`
+- 🎶 **High Score!** - `high.wav`
+- 🎶 **Game Over** - `gameover.wav`
+
+---
+
+## 📊 Estrutura do Projeto
+
+```
+Misture-Meu-Cha/
+├── 🎨 assets/          # Sprites, sons e imagens
+├── 📁 src/              # Código fonte do jogo
+│   ├── entities/        # Entidades do jogo
+│   └── game/            # Lógica principal
+├── 🐍 main.py           # Ponto de entrada
+├── 📋 requirements.txt  # Dependências
+└── 📄 README.md         # Você está aqui!
+```
+
+---
+
+## 🎓 Sobre o Projeto
+
+Este jogo foi desenvolvido como **Projeto Final** da disciplina **Programação Orientada a Objetos I** na **Universidade Federal de Santa Catarina (UFSC)**.
+
+<div align="center">
+
+<img src="assets/pedro.png" width="80">
+
+**Desenvolvido com dedicação e muitas xícaras de chá! ☕**
+
+</div>
+
+📄 [Relatório Completo](Relatório%20-%20misture%20meu%20chá!.pdf) - Confira todo o processo de desenvolvimento!
+
+---
+
+## 🏆 High Score
+
+Conseguiu uma pontuação incrível? O jogo salva automaticamente seu **High Score**!
+
+<img src="assets/highscore_star.png" width="50">
+
+---
+
+<div align="center">
+
+## 📜 Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE) - sinta-se livre para usar, modificar e compartilhar!
+
+### ☕ Feito com carinho para todos os amantes de chá e jogos de ritmo!
+
+<img src="assets/xic_frente.png" width="80"> <img src="assets/colher.png" width="80">
+
+**[⬆️ Voltar ao topo](#-misture-meu-chá)**
+
+</div>
 
 
 
